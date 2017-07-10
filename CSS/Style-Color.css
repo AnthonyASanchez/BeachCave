@@ -1,0 +1,15 @@
+.footer{
+  padding: 20px;
+  height: 220px;
+}
+.footer .icon:hover{
+  background-color: #fff;
+}
+
+.bgCol{
+  background-color:#272727;
+}
+.csulb{
+  background-color:#272727;
+  height:30px;
+}
