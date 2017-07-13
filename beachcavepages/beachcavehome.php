@@ -11,7 +11,7 @@
   </head>
   <body>
     <!--Including the header-->
-    <?php include '../Includes/header.php'; ?>
+    <?php include 'header.php'; ?>
     <div class = "jumbotron jumbotron-fluid text-white text-center m-0 bgCol" >
         <div class = "container">
           <h1 class = "display-1">Welcome to the <strong>Beach</strong>Cave</h1>
@@ -61,7 +61,7 @@
     </div>
       </div>
           <!--Including Footer-->
-          <?php include '../Includes/footer.php';?>
+          <?php include 'footer.php';?>
 
     <!--</div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
