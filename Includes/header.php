@@ -8,7 +8,7 @@ echo'
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#"><img src="../Images/pyrmid.jpg" width="90" height="80" class="d-inline-block align-top" alt = ""></a>
+  <a class="navbar-brand" href="http://beachcave.org/"><img src="../Images/pyrmid.jpg" width="90" height="80" class="d-inline-block align-top" alt = "Beach pyrmid, link to Home page."></a>
   <div class="collapse navbar-collapse text-center justify-content-end" id="navbarSupportedContent">
         <a class="nav-item nav-link h4 active" href="beachcavehome.php">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link h4" href="research.php">Research</a>
