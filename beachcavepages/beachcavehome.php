@@ -14,7 +14,7 @@
     <?php include '../Includes/header.php'; ?>
     <div class = "jumbotron jumbotron-fluid text-white text-center m-0 bgCol" >
         <div class = "container">
-          <h1 class = "display-1">Welcome to the <strong>Beach</strong>Cave</h1>
+          <h1 class = "display-1">Welcome to the <strong>Beach</strong>CAVE</h1>
           <p class = "lead">An immersive virtual reality environment that will facilitate ongoing interdisciplinary research at California State University, Long Beach</p>
         </div>
       </div>

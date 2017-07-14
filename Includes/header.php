@@ -2,7 +2,7 @@
 echo'
 
 <div class = "container-fluid m-0 p-0 csulb">
-  <a href ="http://www.csulb.edu/"class = "lead text-white">California State University, Long Beach </a>
+  <a href ="beachcavehome.php"class = "lead text-white">California State University, Long Beach </a>
 </div>
 <nav class="navbar navbar-toggleable-sm navbar-light">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

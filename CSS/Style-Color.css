@@ -15,7 +15,9 @@ body{
 .footer .icon:hover{
   background-color: #fff;
 }
-
+.facblock{
+  border: 2px solid black;
+}
 .bgCol{
   background-color:#272727;
 }

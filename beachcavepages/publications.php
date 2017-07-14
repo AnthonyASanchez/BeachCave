@@ -13,26 +13,62 @@
     <!--Including the header-->
     <?php include '../Includes/header.php'; ?>
     <div class = "container-fluid m-0 p-0 bgCol" >
-      <div class = "row m-0 p-0">
-        <div class = "col-2 m-5" >
-          <div class="list-group rounded-0">
-            <a href="research.php" class="list-group-item list-group-item-action">Projects</a>
-            <a href="publications.php" class="list-group-item active">Publications</a>
+      <div class = "row m-0 p-0" >
+        <div class = "col-2 ml-5 mt-5">
+          <div class="list-group sideList">
+            <a href="research.php" class="list-group-item list-group-item-action">
+              Projects
+            </a>
+            <a href="publications.php" class="list-group-item active" >Publications</a>
             <a href="researchopportunities.php" class="list-group-item list-group-item-action">Research Opportunities</a>
           </div>
         </div>
-        <div class = "col-10 m-0" id = "main">
-          main
-
+        <div class = "container-fluid m-5 bgInverse" id = "main" style="height:600px;" >
+            <div class = "container m-0 p-3">
+                <h1 class = "h1 text-center"><u>Publications</u></h1>
+                <table class="table table-striped table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>Year</th>
+                      <th>Research Area</th>
+                      <th>Author</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Situation awareness and workload Air Traffic Control</td>
+                      <td>9/2016</td>
+                      <td>Human Factors</td>
+                      <td>T. Strybel</td>
+                    </tr>
+                    <tr>
+                      <td>Marco Botton Tuttofare</td>
+                      <td>2/2016</td>
+                      <td>Sensation Perception</td>
+                      <td>A. Manabat</td>
+                    </tr>
+                    <tr>
+                      <td>Design integration with tools</td>
+                      <td>11/2015</td>
+                      <td>Design</td>
+                      <td>Y. Wong</td>
+                    </tr>
+                    <tr>
+                      <td>Mechanical Engineering</td>
+                      <td>5/2015</td>
+                      <td>Engineering</td>
+                      <td>A. Shaw</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
         </div>
       </div>
     </div>
-    <div id = "humanrobot">
-    </div>
-    <div id = "complexsystem">
-    </div>
-    <div id = "motorandlearning">
-    </div>
+
+
+
     <!--Including Footer-->
     <?php include '../Includes/footer.php';?>
     <!--</div>
