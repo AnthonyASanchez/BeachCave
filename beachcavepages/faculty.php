@@ -15,17 +15,30 @@
     <div class = "container-fluid m-0 p-5 bgCol" >
       <div class ="container-fluid bgInverse p-1">
         <h1 class ="display-4"><u>CSULB Faculty & Staff</u></h1>
+        <?php
+      $hostName = "50.87.249.116";
+      $databaseName = "beachcav_staff";
+      $databaseUsername = "beachcav_dbAdmin";
+      $dataPassword = "CaveCasl21!";
+      $con = mysqli_connect($hostName,$databaseUsername,$dataPassword,$databaseName) or die("Error Connect");
+      $query = "SELECT * FROM `faculty`";
+      $result = mysqli_query($con,$query);
+      while($row = mysqli_fetch_array($result)){
+        echo '
         <div class = "row facrow">
           <div class ="col-3 m-3">
-            <img class = "img-fluid mx-auto d-block"src="../Faculty/M_Aliasgari.jpg" style="max-width:200px;">
+            <img class = "img-fluid mx-auto d-block"src="../Faculty/'.$row["image"].'" style="max-width:200px;">
+            <p class = "lead text-center">'. $row["Name"] .'</p>
           </div>
           <div class = "col-8 m-3 facblock" >
-            <p class = "lead"><u>Department</u>: Computer engineering and Computer Science</p>
-            <p class = "lead"><u>ResearchArea</u>: Cryptography and Information Security</p>
-            <p class = "lead"><u>Research Project</u>: Human Robot Interaction: Advanced Manufacturing</p>
-            <p class = "lead"> <a href="http://web.csulb.edu/~maliasga/">Website</a>, email:<a href="mailto:mehrdad.aliasgari@csulb.edu">mehrdad.aliasgari@csulb.edu</a></p>
+            <p class = "lead"><u>Department</u>: '. $row["Department"].'</p>
+            <p class = "lead"><u>ResearchArea</u>: '. $row["researchArea"].'</p>
+            <p class = "lead"><u>Research Project</u>: '.  $row["researchProject"]. '</p>
+            <p class = "lead"> <a href="'. $row["website"].'">Website</a>, email:<a href="mailto:'. $row["email"].'">'. $row["email"].'</a></p>
           </div>
-        </div>
+        </div>';
+      }
+      ?>
 
       </div>
     </div>
