@@ -25,23 +25,11 @@
         <div class = "container-fluid m-5 bgInverse" id = "main" >
             <div class = "container m-0 p-3">
                   <div class = "researchBlock py-4">
-                    <h1 class = "display-5"><u>Information about the Lab</u></h1>
-                      <p class ="lead">This lab aim to acquire an immersive virtual environment that will facilitate ongoing interdisciplinary research in human-machine interaction in a dynamic environment at CSULB.<p>
-                      <p class ="lead">The instrument is a turnkey, well integrated immersive virtual reality (VR) environment with synchronized full-body motion tracking. The system includes a four-wall
-                        projection system, eight camera real-time motion capture system, and a control software suite that allows customized software development and additional hardware integration.</p>
-                      <p class = "lead">The VR system provides a cost-effective design solution that can be adapted, utilized, and evaluated to fit the needs of multiple projects relating to human
-                        perception as well as human-machine interaction.</p>
-                      <p class ="lead">The flexible usage of the VR environment suits the strong demand to enhance research infrastructure and the use of shared equipment on campus. The system will enable new research
-                        activities, teaching opportunities, and enhanced student research training.</p>
-                  </div>
-                  <div class = "researchBlock py-4">
-                    <h1 class = "display-5"><u>How to use the Lab</u></h1>
-                      <p class = "lead">Anyone interested in using the facility for research purposes can fill out a <a href = "labscheduling.php">scheduling form</a>.<p>
-                      </p>
-                      <p class = "lead">Safety and protocols for using the BeachCAVE Lab will be provided upon approval of using the lab for research.
-                      </p>
-                      <p class = "lead">If you have additional questions regarding how to use the lab, who can use the lab, set-up instructions, rules, protocols, etc. please contact <a href="">Dr.Marayong</a><p>
-                      </p>
+                    <h1 class = "display-5"><u>About the Lab</u></h1>
+                      <p class ="lead">The Beach CAVE lab houses a CAVE immersive virtual environment system to facilitate interdisciplinary research in human-machine interaction in a dynamic environment.
+                        Our system, Viscube M4 (visbox Inc., IL), consists of front-projected four panel displays with an eight-camera ARTTrack5 real-time full body motion tracking system and fully-integrated
+                        graphics workstation. The acquisition of the CAVE VR system was funded by Nantional Science Foundation Major Research Instrumentation grant (Award number 1626655).<p>
+
                   </div>
                   <div class = "py-4" >
                     <h1 class = "display-5"><u>Equipment Components and Specs</u></h1>
@@ -62,7 +50,12 @@
                           <td>1316 x 1200 resolution per surface</td>
                         </tr>
                         <tr>
-                          <td>ARTTRACKS full body tracking system withb passive markers</td>
+                          <td>Screen size</td>
+                          <td><p>W 140" x H 87.5" (center and floor)</p>
+                              <p>W 94" x H 87.5" (sides)</p></td>
+                        </tr>
+                        <tr>
+                          <td>ARTTRACKS full body tracking system with passive markers</td>
                           <td>8 infrared optical 6-DOF tracking cameras, sensor resolution of 1.3 megapixels at full frame mode, frame rate up to 300 Hz</td>
                         </tr>
                         <tr>
@@ -81,9 +74,20 @@
                     </table>
 
                   </div>
-
-
-
+                  <div class = "researchBlock py-4">
+                    <h1 class = "display-5"><u>Lab Use & Scheduling</u></h1>
+                    <div class ="container">
+                      <div class ="row justify-content-center">
+                      <iframe src="https://calendar.google.com/calendar/embed?src=beachcave21%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    </div>
+                      <p class = "lead">The lab is located in the Engineering Technology building room 21(ET-21). Click <a href ="">here</a> for map and direction to campus.
+                      </p>
+                      <p class = "lead">If you are interested in using the lab facility or have additional questions, please send your inquiries to <a href="mailto: BeachCAVE@csulb.edu" style="text-decoration: none;">BeachCAVE@csulb.edu</a>.
+                      </p>
+                      <!--<p class = "lead">If you have additional questions regarding how to use the lab, who can use the lab, set-up instructions, rules, protocols, etc. please contact <a href="">Dr.Marayong</a><p>
+                      </p>-->
+                  </div>
             </div>
         </div>
       </div>

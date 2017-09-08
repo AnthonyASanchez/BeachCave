@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Icons Link -->
+    <a href="../Includes/formemail.php">
     <!-- Bootstrap CSS -->
     <?php include '../Includes/bootstraphead.php'; ?>
   </head>
@@ -24,7 +25,7 @@
         </div>
         <div class = "container-fluid m-5 p-3 bgInverse" id = "main" >
           <div class ="container">
-            <form>
+            <form method = "post" name = "labform" action = "../Includes/formemail.php">
               <div class="form-group">
                 <div class = "row">
                   <label class = "col-6" for="name">Name</label>
@@ -33,34 +34,27 @@
                   <label class = "col-1 ml-1" for="YYYY">Year</label>
                 </div>
                 <div class = "row">
-                  <input type="name" class="form-control col-6" id="name" aria-describedby="emailHelp" placeholder="Enter name">
-                  <input type="MM" class="form-control col-1 ml-5" id="name" aria-describedby="Month" placeholder="MM">
-                  <input type="DD" class="form-control col-1 ml-1" id="name" aria-describedby="Month" placeholder="DD">
-                  <input type="YYYY" class="form-control col-1 ml-1 mr-0" id="name" aria-describedby="Month" placeholder="YYYY">
+                  <input name = "name"type="text" class="form-control col-6"  aria-describedby="emailHelp" placeholder="Enter name">
+                  <input name = "month" type="text" class="form-control col-1 ml-5"  aria-describedby="Month" placeholder="MM">
+                  <input name = "day" type="text" class="form-control col-1 ml-1"  aria-describedby="Month" placeholder="DD">
+                  <input name = "year" type="text" class="form-control col-1 ml-1 mr-0"  aria-describedby="Month" placeholder="YYYY">
                 </div>
                 <small id="name" class="form-text text-muted ">We'll never share your information with anyone else.</small>
               </div>
               <div class="form-group">
                 <label for="InputEmail1">Email address</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input name = "email" type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
 
               </div>
               <div class="form-group">
                 <label for="organizationfill">Organization</label>
-                <input type="organization" class="form-control" id="organizationfill" placeholder="Organization">
+                <input name = "organization" type="text" class="form-control"  placeholder="Organization">
               </div>
               <div class="form-group">
                 <label for="reason">Reason</label>
-                <textarea class="form-control" id="reason" rows="4"></textarea>
+                <textarea name = "message" class="form-control"  rows="4"></textarea>
               </div>
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input">
-                  Check me out
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button name = "submit" type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>

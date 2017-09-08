@@ -21,7 +21,7 @@
         <div class = "row m-0 p-0" >
           <div class = "col-md-12 col-lg-4 col-sm-12 p-0 m-0 ">
             <div class = "card text-center border-0 rounded-0">
-              <img class = "card-img rounded-0" src="../Images/HRInteraction.jpg" alt = "picture of human hand and robot hand">
+              <img class = "card-img rounded-0" src="../Images/cave1.jpg" alt = "collaborative use of VR system.">
               <div class = "card-img-overlay">
                 <div class  ="row justify-content-center" style = "height:80%">
                   <h4 class = "card-title text-white">Human-robot Interaction</h4>
@@ -35,7 +35,7 @@
         </div>
         <div class = "col-md-12 col-lg-4 col-sm-12 p-0 m-0">
           <div class = "card text-center border-0 rounded-0">
-            <img class = "card-img  rounded-0" src="../Images/ComplexSystems.jpg" alt = "a complex system of connections">
+            <img class = "card-img  rounded-0" src="../Images/cave3.jpg" alt = "collaborative use of VR system.">
             <div class = "card-img-overlay">
               <div class = "row justify-content-center" style = "height:80%">
                 <h4 class = "card-title text-white">Human interaction in complex systems</h4>
@@ -49,7 +49,7 @@
       </div>
       <div class = "col-md-12 col-lg-4 col-sm-12 p-0 m-0">
         <div class = "card text-center border-0 rounded-0">
-          <img class = "card-img rounded-0" src="../Images/HumanPerformance.jpg" alt = "female jogging, cardio vascular system being emphasised">
+          <img class = "card-img rounded-0" src="../Images/cave2.jpg" alt = "collaborative use of VR system.">
           <div class = "card-img-overlay">
             <div class = "row justify-content-center" style = "height:80%">
               <h4 class = "card-title text-white">Human motor and learning performance</h4>
