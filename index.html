@@ -17,58 +17,61 @@
 	</head>
 	<body>
 		<!-- NAVIGATION BAR -->
-		<nav class = "navbar fixed-top navbar-light bg-light">
-			<a class = "navbar-brand" href = "index.html">
-				<!--<img src = "media/csulbseal.png" alt = "" width = "4%" height = "4%">-->
-				CSULB BeachCAVE
-			</a>
-			<ul class="nav nav-pills nav-fill" >
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Active</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-				</li>
-			</ul>
-		</nav>
-		<!--<nav class = "navbar navbar-inverse navbar-static-top">
+		<nav class = "navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<!--<img src = "media/csulbseal.png" alt = "" width = "4%" height = "4%" class="d-inline-block align-top">-->
 			<div class = "container">
-				<div class = "navbar-header">
-					<button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1" aria-expanded = "false">
-						<span class = "sr-only">Toggle navigation</span>
-						<span class = "icon-bar"></span>
-						<span class = "icon-bar"></span>
-						<span class = "icon-bar"></span>
-					</button>
-					<a class = "navbar-brand" href="#">LB Logo Here</a>
-				</div>
-				<div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
-					<ul class = "nav navbar-nav navbar-right">
-						<li><a href = "#">About</a></li>
-						<li class = "dropdown">
-							<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button" aria-haspopup = "true" aria-expanded = "false">Services<span class = "caret"></span>
-							</a>
-							<ul class = "dropdown-menu">
-								<li><a href = "#">Design</a></li>
-								<li><a href = "#">Development</a></li>
-								<li><a href = "#">Consulting</a></li>
-							</ul>
-						</li>
-						<li><a href = "#">Contact</a></li>
-					</ul>
-				</div>
-
-				</div>
+				<a class = "navbar-brand" href = "index.html"><img src = "media/csulbseal.png" alt = "" width = "50" height = "50" class="d-inline-block align-top"></a>
+				<!--<ul class = "navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class = "nav-item active">
+						<a class = "nav-link" href = "index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class = "nav-item">
+						<a class = "nav-link" href = "#">Research</a>
+					</li>
+				</ul>-->
+				<ul class="nav nav-pills justify-content-end" >
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+						<div class = "dropdown-menu">
+							<a class="dropdown-item" href="#">Projects</a>
+							<a class="dropdown-item" href="#">Publications</a>
+							<a class="dropdown-item" href="#">Research Opportunities</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lab</a>
+						<div class = "dropdown-menu">
+							<a class="dropdown-item" href="#">Lab Information</a>
+							<a class="dropdown-item" href="#">Lab Scheduling</a>
+							<a class="dropdown-item" href="#">Software Resources</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Faculty</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">News & Events</a>
+					</li>
+					<!--<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>-->
+				</ul>				
 			</div>
-		</nav>-->
-		<br><br>
-		<h1>Welcome to the BeachCAVE</h1>
+		</nav>
+		<br><br><br><br>
+		<center><h1>Welcome to the BeachCAVE</h1></center>
+		<center>An immersive virtual reality environment that will facilitate ongoing interdisciplinary research at California State University, Long Beach</center>
+
+		<footer class = "page-footer font-small pt-4">
+			<div class="footer-copyright text-center py-3">
+				1250 Bellflower Boulevard<br>
+				Long Beach, California 90840<br>
+				Telephone: (562)985-4111
+			</div>
+		</footer>
 
 		<!-- Bootstrap JQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
