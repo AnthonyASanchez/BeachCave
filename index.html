@@ -6,64 +6,66 @@
 
 		<!-- TAB ICON -->
 		<link rel = "icon" href = "media/csulbseal.png">
-
-		<!-- Import CSS Script -->
-		<link href = "main.css" rel = "stylesheet" type = "text/css">
-
+		
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+		<!-- Import CSS Script -->
+		<link href = "main.css" rel = "stylesheet" type = "text/css">
 	</head>
+
 	<body>
 		<!-- NAVIGATION BAR -->
-		<nav class = "navbar fixed-top navbar-expand-lg navbar-light bg-light">
-			<!--<img src = "media/csulbseal.png" alt = "" width = "4%" height = "4%" class="d-inline-block align-top">-->
-			<div class = "container">
-				<a class = "navbar-brand" href = "index.html"><img src = "media/csulbseal.png" alt = "" width = "50" height = "50" class="d-inline-block align-top"></a>
-				<!--<ul class = "navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class = "nav-item active">
-						<a class = "nav-link" href = "index.html">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class = "nav-item">
-						<a class = "nav-link" href = "#">Research</a>
-					</li>
-				</ul>-->
-				<ul class="nav nav-pills justify-content-end" >
-					<li class="nav-item">
-						<a class="nav-link active" href="index.html">Home</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
-						<div class = "dropdown-menu">
-							<a class="dropdown-item" href="#">Projects</a>
-							<a class="dropdown-item" href="#">Publications</a>
-							<a class="dropdown-item" href="#">Research Opportunities</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Lab</a>
-						<div class = "dropdown-menu">
-							<a class="dropdown-item" href="#">Lab Information</a>
-							<a class="dropdown-item" href="#">Lab Scheduling</a>
-							<a class="dropdown-item" href="#">Software Resources</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Faculty</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">News & Events</a>
-					</li>
-					<!--<li class="nav-item">
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-					</li>-->
-				</ul>				
-			</div>
+		<nav class = "navbar navbar-expand-lg navbar-dark" style = "background-color: #474954;">
+  			<a class = "navbar-brand" href = "index.html"><img src = "media/csulbseal.png" alt = "" width = "50" height = "50" class="d-inline-block align-top"></a>
+
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+ 			<div class = "collapse navbar-collapse" id = "navbarNavDropdown">
+ 				<ul class = "navbar-nav">
+ 					<li class = "nav-item active">
+ 						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+ 					</li>
+ 					<li class = "nav-item dropdown">
+ 						<a class = "nav-link dropdown-toggle" href = "#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research
+ 						</a>
+ 						<div class = "dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+ 							<a class="dropdown-item" href="#">Projects</a>
+ 							<a class="dropdown-item" href="#">Publications</a>
+ 							<a class="dropdown-item" href="#">Research Opportunities</a>
+ 						</div>
+ 					</li>
+ 					<li class = "nav-item dropdown">
+ 						<a class = "nav-link dropdown-toggle" href = "#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lab
+ 						</a>
+ 						<div class = "dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+ 							<a class="dropdown-item" href="#">Lab Information</a>
+ 							<a class="dropdown-item" href="#">Lab Scheduling</a>
+ 							<a class="dropdown-item" href="#">Software Resources</a>
+ 						</div>
+ 					</li>
+ 					<li class = "nav-item">
+ 						<a class = "nav-link" href = "#">Faculty</a>
+ 					</li>
+ 					<li class = "nav-item">
+ 						<a class = "nav-link" href = "#">News & Events</a>
+ 					</li>
+ 				</ul>
+ 			</div>
 		</nav>
-		<br><br><br><br>
-		<center><h1>Welcome to the BeachCAVE</h1></center>
-		<center>An immersive virtual reality environment that will facilitate ongoing interdisciplinary research at California State University, Long Beach</center>
+
+		<div class = "homepageIntro">
+			<center><h1>Welcome to the BeachCAVE</h1></center>
+			<center>An immersive virtual reality environment that will facilitate ongoing interdisciplinary research at California State University, Long Beach</center>
+		</div>
+
+		<div class = "row">
+			<div class = "column">
+			</div>
+		</div>
 
 		<footer class = "page-footer font-small pt-4">
 			<div class="footer-copyright text-center py-3">

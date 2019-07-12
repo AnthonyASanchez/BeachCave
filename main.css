@@ -1,0 +1,31 @@
+/* Font, spacing, background color of general website */
+body {
+	/*font-family: georgia;*/
+	color: white;
+	padding: 20px;
+	background: #272727;
+	margin: 0px;
+}
+
+/* Image will resize with browser screen */
+/**img {
+	width: 100%;
+	height:auto;
+}**/
+
+.section
+{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.homepageIntro{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
