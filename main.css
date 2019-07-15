@@ -29,21 +29,4 @@ body {
 	padding-right: 25px;
 }
 
-/**.rowHome{
-	display:flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-}**/
-
-/**.columnHome{
-	flex: 33%;
-	max-width:33%;
-	padding: 0 4px;
-}**/
-
-/**.comlumnHome img{
-	margin-top: 8px;
-	vertical-align: middle;
-	width: 100%;
-}**/
 
