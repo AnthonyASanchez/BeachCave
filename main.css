@@ -40,4 +40,8 @@ body {
 	margin-left: 50px;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
 
