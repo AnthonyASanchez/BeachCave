@@ -37,8 +37,8 @@ body {
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-top: 30px;
-	margin-right: 40px;
-	margin-left: 40px;
+	margin-right: 35px;
+	margin-left: 35px;
 }
 
 .vertical-align {
@@ -46,22 +46,15 @@ body {
     align-items: center;
 }
 
-
-@media (min-width: 576px){
+@media screen and (max-width: 480px){
 	html{
-		font-size: 70%;
+		font-size: 80%;
 	}
-}
-
-@media (min-width: 768px){
-	html{
-		font-size: 95%;
+	.infoCard{
+		margin-right: 20px;
+		margin-left: 20px;
 	}
-	
-}
-
-@media (min-width: 992px){
-	html{
-		font-size: 100%;
+	.homepageIntro{
+		font-size: 60%;
 	}
 }
