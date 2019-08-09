@@ -6,12 +6,6 @@ body {
 	margin: 0px;
 }
 
-/* Image will resize with browser screen */
-/**img {
-	width: 100%;
-	height:auto;
-}**/
-
 .section
 {
     height: auto;
@@ -46,15 +40,30 @@ body {
     align-items: center;
 }
 
+#title{
+	font-size: 400%;
+}
+
+#titleDescription{
+	font-size: 115%;
+}
+
 @media screen and (max-width: 480px){
-	html{
-		font-size: 80%;
-	}
 	.infoCard{
 		margin-right: 20px;
 		margin-left: 20px;
 	}
-	.homepageIntro{
-		font-size: 60%;
+
+	#title{
+		font-size: 230%;
 	}
+
+	#titleDescription{
+		font-size: 90%;
+	}
+}
+
+@viewport{
+	zoom: 1.0;
+	width: device-wdith;
 }
